@@ -1,0 +1,37 @@
+---
+title: "Course Project: Shiny Application and Reproducible Pitch"
+author: "Markku Maijala"
+date: "2024-05-20"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Predicting Iris type
+
+This Shiny application is based on the built in R data set "iris". The application will predict Iris type based on user input on sepal length and width and petal length and width. For the prediction machine learning is used based on a tree model. Cross validation is used when creating and testing the model. The model accuracy is show in the application.
+
+This famous (Fisher's or Anderson's) iris data set gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.
+
+
+## Iris data set
+
+The iris data set contains the following data.
+```{r}
+str(iris)
+```
+
+
+## Application
+
+The application can be accesssed from this link: https://marmai.shinyapps.io/assweek4/
+
+
+## Documentation
+
+The code for ui.R and server.R id found on github.
+https://github.com/marmai123/Developing-Data-Products-Assignment_Week4
+
+
