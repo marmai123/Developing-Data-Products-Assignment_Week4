@@ -2,7 +2,7 @@
 title: "Course Project: Shiny Application and Reproducible Pitch"
 author: "Markku Maijala"
 date: "2024-05-20"
-output: ioslides_presentation
+output: slidy_presentation
 ---
 
 ```{r setup, include=FALSE}
@@ -34,4 +34,5 @@ The application can be accesssed from this link: https://marmai.shinyapps.io/ass
 The code for ui.R and server.R id found on github.
 https://github.com/marmai123/Developing-Data-Products-Assignment_Week4
 
+Plesase copy link to browser if link is not working through RPubs.
 
